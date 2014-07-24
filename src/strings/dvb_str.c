@@ -1797,7 +1797,10 @@ char *dvbstrTextCharset_TYPE(u_int i)
      {  0x10, 0x10,  "ISO/IEC 8859  special table " },
      {  0x11, 0x11,  "ISO/IEC 10646-1 2Byte pairs Basic Multilingual Plane" },
      {  0x12, 0x12,  "Korean Charset KSC 5601" },
-     {  0x13, 0x1F,  "reserved" },
+     {  0x13, 0x13,  "GB2312-1980" },
+     {  0x14, 0x14,  "Big5 subset of ISO/IEC 10646" },
+     {  0x15, 0x15,  "UTF-8 encoding of ISO/IEC 10646" },
+     {  0x16, 0x1F,  "reserved" },
      {  0x20, 0xFF,  "Latin alphabet" },
      {  0,0, NULL }
   };
